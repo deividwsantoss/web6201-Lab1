@@ -25,28 +25,6 @@
         let messageArea = document.getElementById("messageArea");
         messageArea.hidden = true;
 
-        //Form Validation...
-
-        let fullName = document.getElementById("fullName");
-        fullName.addEventListener("blur", function(){
-            if(fullName.value.length < 2){
-                fullName.focus;
-                fullName.select();
-                messageArea.hidden = false;
-                messageArea.className = "alert alert-danger";
-                messageArea.textContent = "Please, Enter an appropriate name."
-            }
-            else{
-                messageArea.removeAttribute("Class");
-                messageArea.hidden = true;
-            }
-        });
-
-        let sendButton = document.getElementById("sendButton");
-        sendButton.addEventListener("click", function(event){
-            event.preventDefault();
-        });
-
     }
 
 
