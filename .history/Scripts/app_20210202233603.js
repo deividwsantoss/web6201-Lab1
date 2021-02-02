@@ -89,7 +89,7 @@
                 break;
 
         }
-        
+        displayHome();
 
     }
     window.addEventListener("load",Start);

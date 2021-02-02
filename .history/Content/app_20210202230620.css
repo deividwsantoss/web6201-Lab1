@@ -41,8 +41,9 @@ body,html{
     opacity: 0.8; 
 }
 
-h1,p{
+.container{
+    line-height: 200px;
     height: 200px;
-    position: relative;
-    
+    text-align: center;
+
 }

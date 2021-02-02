@@ -42,27 +42,30 @@
             }
         });
 
-        //validating number
-        let contactNumber = document.getElementById("contactNumber");
-        contactNumber.addEventListener("blur", function(){
-
-            if(contactNumber.value.length < 10 || contactNumber > 10 )
-            {
-                contactNumber.focus;
-                contactNumber.select();
-                messageArea.hidden = false;
-                messageArea.className = "alert alert-danger";
-                messageArea.textContent = "Please, Insert a valid Number";
-            }
-            else {
-                messageArea.removeAttribute("Class");
-                messageArea.hidden = true;
-            }
-        });
         let sendButton = document.getElementById("sendButton");
         sendButton.addEventListener("click", function(event){
             event.preventDefault();
         });
+        //validating email
+        let emailAddress = document.getElementById("emailAddress");
+        let pattern = /^[^]+@[^]+\.[A-Z]{2,3}$/;
+
+        if(emailAddress.matches(pattern)){
+
+            messageArea.removeAttribute("Class");
+            messageArea.hidden = true;
+        }
+        else{
+            emailAddress.focus;
+            emailAddress.select();
+            messageArea.hidden = false;
+            messageArea.className = "alert alert-danger";
+            messageArea.textContent = "Please, Insert a valid email"
+
+        }
+
+
+
 
     }
 
@@ -89,7 +92,7 @@
                 break;
 
         }
-        
+        displayHome();
 
     }
     window.addEventListener("load",Start);

@@ -42,27 +42,24 @@
             }
         });
 
-        //validating number
-        let contactNumber = document.getElementById("contactNumber");
-        contactNumber.addEventListener("blur", function(){
-
-            if(contactNumber.value.length < 10 || contactNumber > 10 )
-            {
-                contactNumber.focus;
-                contactNumber.select();
-                messageArea.hidden = false;
-                messageArea.className = "alert alert-danger";
-                messageArea.textContent = "Please, Insert a valid Number";
-            }
-            else {
-                messageArea.removeAttribute("Class");
-                messageArea.hidden = true;
-            }
-        });
         let sendButton = document.getElementById("sendButton");
         sendButton.addEventListener("click", function(event){
             event.preventDefault();
         });
+
+        let contactNumber = document.getElementById("contactNumber");
+        contactNumber.addEventListener("blur", function(){
+            if(!(/[0-9]/.test(contactNumber))){
+                event.preventDefault();
+            }
+            else
+            {
+                messageArea.removeAttribute("Class");
+                messageArea.hidden = true;
+            }
+        })
+
+
 
     }
 
@@ -89,7 +86,7 @@
                 break;
 
         }
-        
+        displayHome();
 
     }
     window.addEventListener("load",Start);

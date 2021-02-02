@@ -6,7 +6,7 @@
 (function(){
 
     function displayHome(){
-        let paragraphOneText = "Welcome to DeRa Development Website for WebD6201";
+        let paragraphOneText = "Welcome to DeRa Development Website for WebD6201 \n Welcome";
         let paragraphOneElement = document.getElementById("paragraphOne");
 
         paragraphOneElement.textContent = paragraphOneText;
@@ -42,27 +42,11 @@
             }
         });
 
-        //validating number
-        let contactNumber = document.getElementById("contactNumber");
-        contactNumber.addEventListener("blur", function(){
-
-            if(contactNumber.value.length < 10 || contactNumber > 10 )
-            {
-                contactNumber.focus;
-                contactNumber.select();
-                messageArea.hidden = false;
-                messageArea.className = "alert alert-danger";
-                messageArea.textContent = "Please, Insert a valid Number";
-            }
-            else {
-                messageArea.removeAttribute("Class");
-                messageArea.hidden = true;
-            }
-        });
         let sendButton = document.getElementById("sendButton");
         sendButton.addEventListener("click", function(event){
             event.preventDefault();
         });
+        //validating email
 
     }
 
@@ -89,7 +73,7 @@
                 break;
 
         }
-        
+        displayHome();
 
     }
     window.addEventListener("load",Start);
