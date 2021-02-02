@@ -1,0 +1,20 @@
+/* Custom CSS goes here */
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-image: url("bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+.contactimage{
+    background-image:url("contactimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
