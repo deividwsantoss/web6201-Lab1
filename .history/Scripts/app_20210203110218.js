@@ -5,26 +5,12 @@
 
 (function(){
 
-    function addHR(){
-        let aboutUsElement = document.getElementById("aboutId");
-        let newNavbar = document.createElement("li");
-        let hr = `<a class="nav-link" aria-current="page" href="services.html"><i class="fas fa-user-circle"></i> Human Resources</a>`
-
-        newNavbar.innerHTML = hr;
-
-
-    }
     function Projects(){
         let productsElement = document.getElementById("prod");
-        let prod = `<a id="prod" class="nav-link" aria-current="page" href="products.html"><i class="fas fa-globe" name="prod"></i> Projects</a>`;
-        
+        let prod = '<a id="prod" class="nav-link" aria-current="page" href="products.html"><i class="fas fa-globe" name="prod"></i> Projects</a>';
 
         productsElement.innerHTML = prod;
-
-        let prodNameElement = document.getElementById("prodName");
-        let projectName = `<h1 id="prodName" class="text-center">Our Projects</h1>`
-
-        prodNameElement.innerHTML = projectName;  
+        
     }
     function displayHome(){
         let paragraphOneText = "Welcome to DeRa Development Website for WebD6201";
@@ -37,17 +23,6 @@
 
     }
     function displayProducts(){
-
-        //deloitte
-        let dlText = "DeRa is proud for leading the main developing project for DL."
-        let dlElement = document.getElementById("dlParagraph");
-
-        dlElement.textContent = dlText;
-
-        let scotiaText = "Another Big company we are proud to have worked with"
-        let scotiaElement = document.getElementById("scotiaParagraph");
-
-        scotiaElement.textContent = scotiaText;
 
     }
     function displayServices(){
@@ -168,7 +143,6 @@
         
 
     }
-    window.addEventListener("load",addHR);
     window.addEventListener("load",Projects);
     window.addEventListener("load",Start);
 

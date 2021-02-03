@@ -44,11 +44,6 @@
 
         dlElement.textContent = dlText;
 
-        let scotiaText = "Another Big company we are proud to have worked with"
-        let scotiaElement = document.getElementById("scotiaParagraph");
-
-        scotiaElement.textContent = scotiaText;
-
     }
     function displayServices(){
 

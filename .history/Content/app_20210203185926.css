@@ -66,10 +66,7 @@ h1{
 }
 
 #pic{
-    width:310px; /* you can use % */
+    width:540px; /* you can use % */
     height: auto;
 }
 
-#aboutmain{
-    margin-top: 100px;
-}

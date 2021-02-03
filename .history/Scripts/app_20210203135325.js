@@ -39,15 +39,10 @@
     function displayProducts(){
 
         //deloitte
-        let dlText = "DeRa is proud for leading the main developing project for DL."
-        let dlElement = document.getElementById("dlParagraph");
+        let deloiteText = "DeRa is proud for leading the main developing project for Deloitte."
+        let deloiteElement = document.getElementById("deloitte");
 
-        dlElement.textContent = dlText;
-
-        let scotiaText = "Another Big company we are proud to have worked with"
-        let scotiaElement = document.getElementById("scotiaParagraph");
-
-        scotiaElement.textContent = scotiaText;
+        deloiteElement.textContent = deloiteText;
 
     }
     function displayServices(){

@@ -38,17 +38,6 @@
     }
     function displayProducts(){
 
-        //deloitte
-        let dlText = "DeRa is proud for leading the main developing project for DL."
-        let dlElement = document.getElementById("dlParagraph");
-
-        dlElement.textContent = dlText;
-
-        let scotiaText = "Another Big company we are proud to have worked with"
-        let scotiaElement = document.getElementById("scotiaParagraph");
-
-        scotiaElement.textContent = scotiaText;
-
     }
     function displayServices(){
 
@@ -168,7 +157,6 @@
         
 
     }
-    window.addEventListener("load",addHR);
     window.addEventListener("load",Projects);
     window.addEventListener("load",Start);
 
