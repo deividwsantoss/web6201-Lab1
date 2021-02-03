@@ -8,12 +8,7 @@
 
     function addFooter(){    
         //criando footer
-     let footerAdd = document.createElement("FOOTER");
-     let footerNav = document.createElement("nav");
-         
-     
-     
-     
+     let footerAdd = document.createElement("nav");
      let mainF = document.getElementById("mainFooter");
      let txt = document.createTextNode("Copyright ©, 2019");
 

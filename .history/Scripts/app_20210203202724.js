@@ -7,23 +7,15 @@
 
 
     function addFooter(){    
-        //criando footer
-     let footerAdd = document.createElement("FOOTER");
-     let footerNav = document.createElement("nav");
-         
-     
-     
-     
-     let mainF = document.getElementById("mainFooter");
-     let txt = document.createTextNode("Copyright ©, 2019");
-
-     footerAdd.appendChild(txt);
-     document.getElementById(mainFooter).appendChild(footerAdd);
-
-//     footerAdd.appendChild(txt);
- //   footerNav.appendChild(footerDiv);
-  //  footerDiv.appendChild(txt);
-     
+        
+        let addfooter = document.createElement('nav');
+        addFooter.setAttribute("id", "addFooterId");
+        let footerHtml = `<div class="container-fluid">
+                         <h4 ><i class="fas fa-copyright fa-sm"></i> Copyright 2021 </h4>
+                            </div>`
+        let footerContent = document.getElementsByTagName("footer")[0];
+        document.footer.appendChild(addfooter);
+        
 
     }
     

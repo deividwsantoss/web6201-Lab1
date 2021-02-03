@@ -8,21 +8,14 @@
 
     function addFooter(){    
         //criando footer
-     let footerAdd = document.createElement("FOOTER");
+     let footerAdd = document.createElement("footer");
+     document.body.appendChild(footerAdd);
+
      let footerNav = document.createElement("nav");
-         
-     
-     
-     
-     let mainF = document.getElementById("mainFooter");
-     let txt = document.createTextNode("Copyright ©, 2019");
-
-     footerAdd.appendChild(txt);
-     document.getElementById(mainFooter).appendChild(footerAdd);
-
-//     footerAdd.appendChild(txt);
- //   footerNav.appendChild(footerDiv);
-  //  footerDiv.appendChild(txt);
+     let footerDiv = document.createElement("div");
+       let txt = document.createTextNode("Copyright ©, 2019");
+    footerNav.appendChild(footerDiv);
+    footerDiv.appendChild(txt);
      
 
     }

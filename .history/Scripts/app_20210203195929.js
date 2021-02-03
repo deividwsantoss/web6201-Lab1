@@ -6,24 +6,13 @@
 (function(){
 
 
-    function addFooter(){    
-        //criando footer
-     let footerAdd = document.createElement("FOOTER");
-     let footerNav = document.createElement("nav");
-         
-     
-     
-     
-     let mainF = document.getElementById("mainFooter");
-     let txt = document.createTextNode("Copyright ©, 2019");
+    function addFooter(){
 
-     footerAdd.appendChild(txt);
-     document.getElementById(mainFooter).appendChild(footerAdd);
-
-//     footerAdd.appendChild(txt);
- //   footerNav.appendChild(footerDiv);
-  //  footerDiv.appendChild(txt);
-     
+        let footerTxt = `<nav class="navbar fixed-bottom navbar-light bg-light">
+                         <a class="navbar-brand" href="#"><i class="fas fa-copyright fa-sm"></i> Copyright 2021 </a>
+                         </nav>`
+    let footerElement = document.getElementById("footer");
+    footerElement.innerHTML = footerTxt;                       
 
     }
     
@@ -181,7 +170,7 @@
         
 
     }
-    window.addEventListener("load",addFooter);
+    window.addEventListener("load",addHR);
     window.addEventListener("load",Projects);
     window.addEventListener("load",Start);
 

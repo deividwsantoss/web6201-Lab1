@@ -53,7 +53,7 @@ body,html{
     
 }
 h1{
-    margin-top: 2%;
+    margin-top: 10;
 }
 
 #custompg{
@@ -63,7 +63,6 @@ h1{
 
 #projectsImg{
     width: 150px;
-    margin-top: 10%;
 }
 
 #pic{
@@ -73,15 +72,4 @@ h1{
 
 #aboutmain{
     margin-top: 100px;
-}
-#dlParagraph{
-    margin-top: 10%;
-    margin-top: 10%;
-    font-size: large;
-    font-weight: bold;
-}
-#scotiaParagraph{
-    margin-top: 10%;
-    font-size: large;
-    font-weight: bold;
 }

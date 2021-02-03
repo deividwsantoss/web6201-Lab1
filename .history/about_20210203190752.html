@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>About</title>
 </head>
 <!-- CSS SECTION-->
 <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 <link rel="stylesheet" href="./Content/app.css">
 
-<body class="bg">
+<body class="aboutus">
     <!-- Main Header-->
     <header>
-        <!-- Main Navegation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="Index.html"><i class="fas fa-laptop-code"></i> DeRa</a>
@@ -23,16 +22,16 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Index.html"><i class="fas fa-home fa-lg"></i> Home</a>
+                    <a class="nav-link " aria-current="page" href="Index.html"><i class="fas fa-home fa-lg"></i> Home</a>
                   </li>
                   <li class="nav-item">
-                    <a id="prod" class="nav-link" aria-current="page" href="products.html"><i class="fas fa-globe" name="prod"></i> Products</a>
+                    <a id="prod" class="nav-link" aria-current="page" href="products.html"><i class="fas fa-globe fa-lg"></i> Products</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="services.html"><i class="fas fa-cog fa-lg"></i> Services</a>
                   </li>
                   <li class="nav-item">
-                    <a id="aboutId" class="nav-link" aria-current="page" href="about.html"><i class="fas fa-info fa-lg"></i> About Us</a>
+                    <a class="nav-link active" aria-current="page" href="about.html"><i class="fas fa-info fa-lg"></i> About Us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="contact.html"><i class="fas fa-phone fa-lg"></i> Contact Us</a>
@@ -46,24 +45,35 @@
 
     </header>
 
+
     <!-- Main Content-->
-        <main class="container">
-          <div class="text-md-center">
-          
-              <p id="paragraphOne"> </p>
-          
-          </div>
+        <main class="container text-center">
+            <h1 class="text-center">About Us</h1>
+            <div id="aboutmain" class="container">
+              <div class="row">
+                <div class="col">
+                  <img src="./Content/deivid.JPG" alt="deivid" srcset=""> <br>
+                  <a href="./Content/DeividSantos_Resume.pdf"><i class="far fa-file"></i>Deivid's Resume</a>
+                </div>
+                <div class="col">
+                  <img id="pic" src="./Content/rahman.jpg" alt="rahmanPicture" srcset=""> <br>
+                  <a href="./Content/Rahman.pdf"><i class="far fa-file"></i>Rahman's Resume</a>
+                </div>
+              </div>
         </main>
-
-
         <!-- Main Footer-->
-       <footer id="mainFooter">
-
-       </footer>
+        <footer>
+          <nav class="navbar fixed-bottom navbar-dark bg-dark">
+              <div class="container-fluid">
+                  <h4><i class="fas fa-copyright fa-lg"></i> Copyright 2021 </h4>
+              </div>
+            </nav>
+          
+      </footer>
     <!--- Script Section-->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="./Scripts/app.js"></script>
+    <script src="./Scripts/app.js"></script>
 </body>
 
 </html>
