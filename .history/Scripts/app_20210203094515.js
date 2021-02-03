@@ -5,13 +5,7 @@
 
 (function(){
 
-    function Projects(){
-        let productsElement = document.getElementById("prod");
-        let prod = `<a id="prod" class="nav-link" aria-current="page" href="products.html"><i class="fas fa-globe" name="prod"></i> Projects</a>`;
-
-        productsElement.innerHTML = prod;
-        
-    }
+    
     function displayHome(){
         let paragraphOneText = "Welcome to DeRa Development Website for WebD6201";
         let paragraphOneElement = document.getElementById("paragraphOne");
@@ -27,27 +21,12 @@
     }
     function displayServices(){
 
-        //intro text 
         let servicesIntroText = "DeRa Development can provide you the best customized solution for you";
         let servicesIntroElement = document.getElementById("serviceIntro");
         servicesIntroElement.textContent = servicesIntroText;
 
-        // custom dev text
         let customParagraphText = "DeRa Development have been delivering successful custom programs to our clients since the date we were born. \nSince DeRa was born we have seen a rapid change in website technology which we were always able to adapt";
-        let customParagraphElement = document.getElementById("customParagraph");
-        
-        customParagraphElement.textContent = customParagraphText;
 
-        //mobile text
-        mobileParagraphText = "We have the knowledge and skills to provide you the best quality solution for any kind of device. \nMobile development is one of our strengths."
-        mobileParagraphElement = document.getElementById("mobileParagraph");
-
-        mobileParagraphElement.textContent = mobileParagraphText;
-
-        //design paragraph 
-        let webDesignParagraphText = "Our Web Design is awesome";
-        let webDesignParagraphElement = document.getElementById("weDesignParagraph");
-        webDesignParagraphElement.textContent = webDesignParagraphText;
     }
     function displayContact(){
 
@@ -120,7 +99,7 @@
 
     function Start(){
         console.log("App Start...");
-        
+
         switch (document.title) {
 
             case 'Home':
@@ -143,7 +122,6 @@
         
 
     }
-    window.addEventListener("load",Projects);
     window.addEventListener("load",Start);
 
 })();

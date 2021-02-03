@@ -7,10 +7,7 @@
 
     function Projects(){
         let productsElement = document.getElementById("prod");
-        let prod = `<a id="prod" class="nav-link" aria-current="page" href="products.html"><i class="fas fa-globe" name="prod"></i> Projects</a>`;
-
-        productsElement.innerHTML = prod;
-        
+        console.log("productsElement");
     }
     function displayHome(){
         let paragraphOneText = "Welcome to DeRa Development Website for WebD6201";

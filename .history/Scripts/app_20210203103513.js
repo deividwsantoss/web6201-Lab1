@@ -6,11 +6,8 @@
 (function(){
 
     function Projects(){
-        let productsElement = document.getElementById("prod");
-        let prod = `<a id="prod" class="nav-link" aria-current="page" href="products.html"><i class="fas fa-globe" name="prod"></i> Projects</a>`;
-
-        productsElement.innerHTML = prod;
-        
+        let productsElement = document.getElementById("product");
+        console.log(products);
     }
     function displayHome(){
         let paragraphOneText = "Welcome to DeRa Development Website for WebD6201";
@@ -120,7 +117,7 @@
 
     function Start(){
         console.log("App Start...");
-        
+        products();
         switch (document.title) {
 
             case 'Home':
@@ -143,7 +140,6 @@
         
 
     }
-    window.addEventListener("load",Projects);
     window.addEventListener("load",Start);
 
 })();

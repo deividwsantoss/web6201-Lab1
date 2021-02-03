@@ -7,9 +7,9 @@
 
     function Projects(){
         let productsElement = document.getElementById("prod");
-        let prod = `<a id="prod" class="nav-link" aria-current="page" href="products.html"><i class="fas fa-globe" name="prod"></i> Projects</a>`;
+        let prod = "Projects"
 
-        productsElement.innerHTML = prod;
+        console.log(productsElement.value)
         
     }
     function displayHome(){
