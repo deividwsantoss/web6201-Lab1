@@ -1,11 +1,7 @@
 /* Custom CSS goes here */
 
-html{
-    height: auto;
-}
-body{
+body,html{
     height: 100%;
-    
     
 }
 .bg{
@@ -32,13 +28,12 @@ body{
 }
 
 .servicesbackgroud{
-    height: 1200px;
     background-image:url("services.jpg");
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
     opacity: 0.8; 
-    
+    height: 1000px;
     
 }
 .aboutus{
@@ -99,4 +94,7 @@ h1{
 }
 #mobileInfo{
     margin-top: 10%;
+}
+.servicesId{
+    margin-bottom: 100%;
 }

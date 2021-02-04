@@ -7,7 +7,7 @@
 
     function addHr(){
 
-      //  let navIn = document.getElementById("mainUl").getElementsByTagName("ul");
+        let navIn = document.getElementById("mainUl").getElementsByTagName("ul");
 
         let liCreate = document.createElement('li');
 
@@ -80,20 +80,22 @@
         let customParagraphText = "DeRa Development have been delivering successful custom programs to our clients since the date we were born. \nSince DeRa was born we have seen a rapid change in website technology which we were always able to adapt";
         let customParagraphElement = document.getElementById("customParagraph");
         
-        customParagraphElement.innerText = customParagraphText;
+        customParagraphElement.textContent = customParagraphText;
 
         //mobile text
-           
-        let mobileParagraphText = "We have the knowledge and skills to provide you the best quality solution for any kind of device. \nMobile development is one of our strengths.";     
-        let mobileParagraphElement = document.getElementById("mobileInfo");
+        let mobileParagraph = document.createElement("p");
+        mobileParagraph.setAttribute("id","mobileSecParagraph");
+        mobileParagraph.textContent = "We have the knowledge and skills to provide you the best quality solution for any kind of device. \nMobile development is one of our strengths.";
 
-        mobileParagraphElement.innerText = mobileParagraphText;
-        
+        //let mobileParagraphText = "We have the knowledge and skills to provide you the best quality solution for any kind of device. \nMobile development is one of our strengths.";
+        let mobileParagraphElement = document.getElementById("mobileParagraph").getElementsByClassName("col");
+
+        mobileParagraphElement.appendChild(mobileParagraph);
+
         //design paragraph 
-        let webDesignParagraphText = "Our Web Design high quality design makes the user interaction a whole new journey";
-        let webDesignParagraphElement = document.getElementById("DesParagraph");
-
-        webDesignParagraphElement.innerText = webDesignParagraphText;
+        let webDesignParagraphText = "Our Web Design is awesome";
+        let webDesignParagraphElement = document.getElementById("weDesignParagraph");
+        webDesignParagraphElement.textContent = webDesignParagraphText;
     }
     function displayContact(){
 

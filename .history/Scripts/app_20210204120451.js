@@ -7,7 +7,7 @@
 
     function addHr(){
 
-      //  let navIn = document.getElementById("mainUl").getElementsByTagName("ul");
+        let navIn = document.getElementById("mainUl").getElementsByTagName("ul");
 
         let liCreate = document.createElement('li');
 
@@ -90,7 +90,7 @@
         mobileParagraphElement.innerText = mobileParagraphText;
         
         //design paragraph 
-        let webDesignParagraphText = "Our Web Design high quality design makes the user interaction a whole new journey";
+        let webDesignParagraphText = "Our Web Design is awesome";
         let webDesignParagraphElement = document.getElementById("DesParagraph");
 
         webDesignParagraphElement.innerText = webDesignParagraphText;

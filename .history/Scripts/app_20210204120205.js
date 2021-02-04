@@ -7,7 +7,7 @@
 
     function addHr(){
 
-      //  let navIn = document.getElementById("mainUl").getElementsByTagName("ul");
+        let navIn = document.getElementById("mainUl").getElementsByTagName("ul");
 
         let liCreate = document.createElement('li');
 
@@ -84,15 +84,16 @@
 
         //mobile text
            
-        let mobileParagraphText = "We have the knowledge and skills to provide you the best quality solution for any kind of device. \nMobile development is one of our strengths.";     
+        let mobileParagraphText = "We have the knowledge and skills to provide you the best quality solution for any kind of device. \nMobile development is one of our strengths.";
+
+        //let mobileParagraphText = "We have the knowledge and skills to provide you the best quality solution for any kind of device. \nMobile development is one of our strengths.";
         let mobileParagraphElement = document.getElementById("mobileInfo");
 
         mobileParagraphElement.innerText = mobileParagraphText;
         
         //design paragraph 
-        let webDesignParagraphText = "Our Web Design high quality design makes the user interaction a whole new journey";
-        let webDesignParagraphElement = document.getElementById("DesParagraph");
-
+        let webDesignParagraphText = "Our Web Design is awesome";
+        let webDesignParagraphElement = document.getElementById("DesignParagraph");
         webDesignParagraphElement.innerText = webDesignParagraphText;
     }
     function displayContact(){
