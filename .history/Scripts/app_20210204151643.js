@@ -13,13 +13,13 @@ Date Completed: 02.04.2021
 
     function addHr(){
 
-        let navIn = document.getElementById("mainUl");
+        let navIn = document.getElementById("mainUl").getElementsByTagName("ul");
 
         let liCreate = document.createElement('li');
 
-        liCreate.innerHTML = `<a id="prod" class="nav-link" aria-current="page" href="hr.html"><i class="fas fa-globe" name="prod"></i> Human Resources</a>`;
+        liCreate.innerHTML = `<a id="prod" class="nav-link" aria-current="page" href="products.html"><i class="fas fa-globe" name="prod"></i> Human Resources</a>`;
 
-        navIn.insertBefore(liCreate, navIn.getElementsByTagName("li")[4]);
+        navIn.insertBefore(liCreate, navIn.getElementsByTagName("li")[1]);
 
     }
 
@@ -59,17 +59,6 @@ Date Completed: 02.04.2021
         paragraphOneElement.className = "fs-6 ";
     }
     function displayAbout(){
-
-        let NameOneText = "Deivid Santos";
-        let NameOneElemenet = document.getElementById("nameOne");
-
-        NameOneElemenet.innerText = NameOneText;
-
-        let NameTwoText = "Hasibur Rahman";
-        let NameTwoElemenet = document.getElementById("nameTwo");
-
-        NameTwoElemenet.innerText = NameTwoText;
-
 
     }
     function displayProducts(){
@@ -207,9 +196,6 @@ Date Completed: 02.04.2021
                 break;
             case 'Contact':
                 displayContact();
-                break;
-            case 'Human Resources':
-                displayHR();
                 break;
 
         }

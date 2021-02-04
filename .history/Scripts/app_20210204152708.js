@@ -60,17 +60,6 @@ Date Completed: 02.04.2021
     }
     function displayAbout(){
 
-        let NameOneText = "Deivid Santos";
-        let NameOneElemenet = document.getElementById("nameOne");
-
-        NameOneElemenet.innerText = NameOneText;
-
-        let NameTwoText = "Hasibur Rahman";
-        let NameTwoElemenet = document.getElementById("nameTwo");
-
-        NameTwoElemenet.innerText = NameTwoText;
-
-
     }
     function displayProducts(){
 
@@ -207,9 +196,6 @@ Date Completed: 02.04.2021
                 break;
             case 'Contact':
                 displayContact();
-                break;
-            case 'Human Resources':
-                displayHR();
                 break;
 
         }

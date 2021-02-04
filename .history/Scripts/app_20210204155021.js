@@ -61,14 +61,9 @@ Date Completed: 02.04.2021
     function displayAbout(){
 
         let NameOneText = "Deivid Santos";
-        let NameOneElemenet = document.getElementById("nameOne");
+        let NameOneElemenet = document.getElementById("NameOne");
 
         NameOneElemenet.innerText = NameOneText;
-
-        let NameTwoText = "Hasibur Rahman";
-        let NameTwoElemenet = document.getElementById("nameTwo");
-
-        NameTwoElemenet.innerText = NameTwoText;
 
 
     }

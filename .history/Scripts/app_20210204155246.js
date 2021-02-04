@@ -65,10 +65,10 @@ Date Completed: 02.04.2021
 
         NameOneElemenet.innerText = NameOneText;
 
-        let NameTwoText = "Hasibur Rahman";
+        let NameTwoText = "hasibur Rahman";
         let NameTwoElemenet = document.getElementById("nameTwo");
 
-        NameTwoElemenet.innerText = NameTwoText;
+        NameTwoElemenet.innerText = NameOneText;
 
 
     }
