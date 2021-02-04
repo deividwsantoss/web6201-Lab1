@@ -9,20 +9,15 @@
     function addFooter(){    
         //criando footer
      
-        const body = document.body;
- //       let mainContent = document.getElementsByTagName("main")[0];
-  //      let footerLocation = document.getElementById("mainFooter")[0];
-        let footerNav = document.createElement('footer');
-        
+        const body = document.fo;
+        let mainContent = document.getElementsByTagName("main")[0];
+        const footerCR = document.createElement('footer');
+        let footerNav = document.createElement('nav');
+        let footerDiv = document.createElement('div')
 
-        footerNav.innerHTML = `<nav class="navbar fixed-bottom navbar-light bg-light">
-        <div class="container-fluid">
-          <h4 ><i class="fas fa-copyright fa-sm"></i> Copyright 2021 </h4>
-      </div>
-        </nav>`
-        
-        body.appendChild(footerNav);
-        
+        footerNav.innerHTML = `<h4 ><i class="fas fa-copyright fa-sm"></i> Copyright 2021 </h4>`;
+    
+
     }
     
     function Projects(){

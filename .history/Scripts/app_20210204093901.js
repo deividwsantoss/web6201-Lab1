@@ -10,16 +10,14 @@
         //criando footer
      
         const body = document.body;
- //       let mainContent = document.getElementsByTagName("main")[0];
-  //      let footerLocation = document.getElementById("mainFooter")[0];
-        let footerNav = document.createElement('footer');
+        let mainContent = document.getElementsByTagName("main")[0];
+        let footerLocation = document.getElementById("mainFooter")[0];
+        let footerNav = document.createElement('nav');
         
 
-        footerNav.innerHTML = `<nav class="navbar fixed-bottom navbar-light bg-light">
-        <div class="container-fluid">
-          <h4 ><i class="fas fa-copyright fa-sm"></i> Copyright 2021 </h4>
-      </div>
-        </nav>`
+        footerNav.innerHTML = `<div class="container-fluid">
+        <h4 ><i class="fas fa-copyright fa-sm"></i> Copyright 2021 </h4>
+        </div>`;
         
         body.appendChild(footerNav);
         

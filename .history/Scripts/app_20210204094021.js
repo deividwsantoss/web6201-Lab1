@@ -10,8 +10,8 @@
         //criando footer
      
         const body = document.body;
- //       let mainContent = document.getElementsByTagName("main")[0];
-  //      let footerLocation = document.getElementById("mainFooter")[0];
+        let mainContent = document.getElementsByTagName("main")[0];
+        let footerLocation = document.getElementById("mainFooter")[0];
         let footerNav = document.createElement('footer');
         
 
