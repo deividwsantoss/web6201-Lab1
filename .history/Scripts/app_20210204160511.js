@@ -214,7 +214,7 @@ Date Completed: 02.04.2021
             case 'Contact':
                 displayContact();
                 break;
-            case 'HR':
+            case 'Human Resources':
                 displayHR();
                 break;
 

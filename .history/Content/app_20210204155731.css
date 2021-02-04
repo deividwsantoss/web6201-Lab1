@@ -1,7 +1,7 @@
 /* app.js
 
 Author: Deivid Santos   ID: 100731640
-Author: S m hasibur Rahman  ID:100765652
+Author: S m hasibur Rahman  ID:
 
 Date Completed: 02.04.2021
 */
@@ -97,7 +97,7 @@ h1{
 }
 
 #aboutmain{
-    margin-top: 70px;
+    margin-top: 80px;
 }
 #dlParagraph{
     margin-top: 10%;
@@ -132,11 +132,4 @@ h1{
 .names {
     font-size: larger;
     font-weight: bold;
-}
-
-#hrMessage{
-    text-align: center;
-    margin-top: 200px;
-    font-weight: bold;
-    font-size: x-large;
 }

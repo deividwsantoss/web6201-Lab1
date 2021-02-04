@@ -1,7 +1,7 @@
 /* app.js
 
 Author: Deivid Santos   ID: 100731640
-Author: S m hasibur Rahman  ID:100765652
+Author: S m hasibur Rahman  ID:
 
 Date Completed: 02.04.2021
 */
@@ -214,7 +214,7 @@ Date Completed: 02.04.2021
             case 'Contact':
                 displayContact();
                 break;
-            case 'HR':
+            case 'Human Resources':
                 displayHR();
                 break;
 
