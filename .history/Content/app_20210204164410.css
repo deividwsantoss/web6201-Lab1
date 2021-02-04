@@ -1,0 +1,142 @@
+/* app.js
+
+Author: Deivid Santos   ID: 100731640
+Author: S m hasibur Rahman  ID:100765652
+
+Date Completed: 02.04.2021
+*/
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    
+    
+}
+.bg{
+    background-image: url("Background-White.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    height: 100%;
+}
+
+.contactimage{
+    background-image:url("contactimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+.productsbg {
+    background-image:url("productsbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    opacity: 0.8;
+    height: 778px;
+}
+
+.servicesbackgroud{
+    height: 1200px;
+    background-image:url("services.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; 
+    
+    
+}
+.aboutus{
+    background-image:url("bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; 
+}
+#hrbg{
+    background-image:url("hr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; 
+}
+
+#paragraphOne {
+    color: black;
+    font-size: 220%;
+    margin-top: 25%;
+    text-shadow: 2px 2px 4px #000;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+h1{
+    margin-top: 2%;
+}
+
+#custompg{
+    width: 400px;
+
+}
+
+#projectsImg{
+    width: 150px;
+    margin-top: 10%;
+}
+
+#pic{
+    width:310px; /* you can use % */
+    height: auto;
+}
+/* */
+#formId {
+    margin-top: 5%;
+}
+
+#aboutmain{
+    margin-top: 70px;
+}
+#dlParagraph{
+    margin-top: 10%;
+    margin-top: 20%;
+    font-size: large;
+    font-weight: bold;
+}
+#scotiaParagraph{
+    margin-top: 15%;
+    font-size: large;
+    font-weight: bold;
+}
+#canadianParagraph{
+   
+}
+
+#mainInformation{
+    margin-top: 5%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+#mobileInfo{
+    margin-top: 10%;
+}
+
+#canadianParagraph {
+    margin-top: 15%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.names {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#hrMessage{
+    text-align: center;
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: x-large;
+}
