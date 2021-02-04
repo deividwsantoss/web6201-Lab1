@@ -1,16 +1,10 @@
-/* app.js
-
-Author: Deivid Santos   ID: 100731640
-Author: S m hasibur Rahman  ID:
-
-Date Completed: 02.04.2021
-*/
+/* Custom CSS goes here */
 
 html{
-    height: 100%;
+    height: auto;
 }
 body{
-    height: 100%;
+    height: auto;
     
     
 }
@@ -36,7 +30,6 @@ body{
     background-size: cover; 
     background-position: center;
     opacity: 0.8;
-    height: 778px;
 }
 
 .servicesbackgroud{
@@ -84,9 +77,8 @@ h1{
     width:310px; /* you can use % */
     height: auto;
 }
-/* */
 #formId {
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 #aboutmain{
@@ -94,17 +86,14 @@ h1{
 }
 #dlParagraph{
     margin-top: 10%;
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: large;
     font-weight: bold;
 }
 #scotiaParagraph{
-    margin-top: 15%;
+    margin-top: 10%;
     font-size: large;
     font-weight: bold;
-}
-#canadianParagraph{
-   
 }
 
 #mainInformation{
@@ -114,10 +103,4 @@ h1{
 }
 #mobileInfo{
     margin-top: 10%;
-}
-
-#canadianParagraph {
-    margin-top: 15%;
-    font-size: large;
-    font-weight: bold;
 }

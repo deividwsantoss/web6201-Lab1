@@ -1,10 +1,4 @@
-/* app.js
-
-Author: Deivid Santos   ID: 100731640
-Author: S m hasibur Rahman  ID:
-
-Date Completed: 02.04.2021
-*/
+/* Custom JavaScript goes here */
 
 
 "use strict";
@@ -69,17 +63,10 @@ Date Completed: 02.04.2021
 
         dlElement.textContent = dlText;
 
-        //Scotia
         let scotiaText = "Another Big company we are proud to have worked with"
         let scotiaElement = document.getElementById("scotiaParagraph");
 
         scotiaElement.textContent = scotiaText;
-        // Canadian Tire
-
-        let canadianParagraphText = "In 2020 we had the opportunity to work with one of the biggest companies in Canada! ";
-        let canadianElement = document.getElementById("canadianParagraph");
-
-        canadianElement.innerText = canadianParagraphText;
 
     }
     function displayServices(){
