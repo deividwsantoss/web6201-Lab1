@@ -1,4 +1,4 @@
-# web6201-Lab1
+# web6201-Lab2
 
 Github pages:
 
