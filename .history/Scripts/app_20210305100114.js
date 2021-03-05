@@ -201,7 +201,6 @@ class User
         webDesignParagraphElement.innerText = webDesignParagraphText;
     }
     function displayContact(){
-
       let messageArea = $("#messageArea")
       messageArea.hide();
       formValidation();
@@ -236,7 +235,7 @@ class User
        location.href = "contact.html"
        sessionStorage.setItem("user", newUser.serialize());
        $("#fullName").val(username);
-       console.log(username); 
+        
       });
      
     

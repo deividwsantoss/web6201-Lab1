@@ -231,12 +231,12 @@ class User
         let password = $("#password").val();
         
 
-       
+       console.log(username);
        
        location.href = "contact.html"
        sessionStorage.setItem("user", newUser.serialize());
        $("#fullName").val(username);
-       console.log(username); 
+        
       });
      
     
