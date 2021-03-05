@@ -234,7 +234,7 @@ class User
        
        location.href = "contact.html"
        sessionStorage.setItem("user", newUser.serialize());
-       $("#fullName").val(username);
+      //contact.FullName = $("contactName").val();
         
       });
      
@@ -471,23 +471,6 @@ class User
         let messageArea = $("#messageArea")
         messageArea.hide();
         testRegister();
-
-        $("#registerButton").on("click", function() {
-
-          let firstName = $("#firstName").val();
-          let lastName = $("#lastName").val();
-          let registerEmail = $("#registerEmailAddress").val();
-          let regPassword = $("#password").val();
-
-          console.log("The First name of the user is " + firstName + "\n" +
-           "Last Name is " + lastName + "\n" +
-           "Email Address: " + registerEmail + "\n" +
-           "Password: " + regPassword 
-           );
-
-           $('#registerForm')[0].reset();
-
-        });
 
        
         let registerButton = document.getElementById("registerButton");

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "lab1 assignment",
   "main": "app.js",
-  "repository": "https://github.com/deividwsantoss/webd6201-Lab2.git",
+  "repository": "https://github.com/deividwsantoss/web6201-Lab1.git",
   "author": "Deivid Santos <deivid.w.santos@gmail.com>",
   "license": "MIT",
   "dependencies": {
